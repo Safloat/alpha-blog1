@@ -1,0 +1,105 @@
+@import "bootstrap";
+
+body {
+  background-color: #3332540a;
+}
+
+.navbar {
+  background-color: #333254 !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  background-image: asset-url('backimg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1.5;
+  height: 525px;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  margin-left: 10%;
+  margin-right:10%;
+}
+
+#innertext {
+  padding: 30px;
+  background-color: rgba(51, 50, 84, 0.2);
+  opacity: 1.0;
+  color: oldlace;
+  text-shadow: 2px 2px 4px #1e1f29;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+}
+
+#innertext p {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#innertext h1 {
+  margin-top: 25px;
+}
+
+.theme {
+  margin-top: 50px;
+  background-color: #5b663b;
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Other Classes for Page Styling */
+
+#formdiv {
+  background-color: #333254;
+}
+
+.alert {
+  position: relative;
+}
+
+.btn-close1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.button-group
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
